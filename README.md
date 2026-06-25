@@ -1,6 +1,12 @@
 # 🚀 Java DSA
 
-Welcome to my Java Data Structures and Algorithms repository.
+🚀 This repository contains my solutions to Data Structures and Algorithms problems using Java.
+
+## Goals
+- Improve problem-solving skills
+- Master DSA for coding interviews
+- Write clean and optimized Java solutions
+- Practice consistently every day
 
 ## 📚 Topics Covered
 
