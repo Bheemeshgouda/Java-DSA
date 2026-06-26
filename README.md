@@ -8,18 +8,25 @@
 - Write clean and optimized Java solutions
 - Practice consistently every day
 
-## 📚 Topics Covered
+## 📚 Completed Topics
 
 ### Arrays
 - Largest Element
 - Second Largest Element
 - Check Sorted Array
-- Remove Duplicates from Sorted Array
-- Left Rotate Array by One Place
-- Left Rotate Array by K Places
-- Move Zeroes To End
+- Remove Duplicates
+- Left Rotate by One
+- Left Rotate by K
+- Move Zeroes to End
 - Linear Search
-- Sorting
+- Union of Two Sorted Arrays
+- Intersection of Two Sorted Arrays
+- Find Missing Number
+- Maximum Consecutive Ones
+- Find Number That Appears Once
+- Majority Element
+
+More topics will be added as I continue my DSA journey.
 
 ## 🎯 Goal
 
