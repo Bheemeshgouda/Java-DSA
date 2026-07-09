@@ -1,0 +1,43 @@
+package Search;
+
+import java.util.Scanner;
+
+public class UpperBound {
+
+    public static int upperBound(int[] nums, int target){
+        int low = 0;
+        int high = nums.length - 1; 
+        int ans = nums.length;
+
+        while(low <= high){
+
+            int mid = low + (high - low)/2;
+            if(nums[mid] > target){
+                ans = mid;
+                high = mid - 1;
+            }
+            else{
+                low = mid + 1;
+            }
+        }
+        return ans;
+    }
+    public static void main(String[] args){
+        Scanner userNum = new Scanner(System.in);
+        System.out.println("Enter the array size : ");
+        int size = userNum.nextInt();
+
+        int[] values = new int[size];
+        System.out.println("Enter the array values : ");
+        for(int i = 0; i < size; i++){
+            values[i] = userNum.nextInt();
+        }
+
+        System.out.println("Enter the values to search :");
+        int targetValue = userNum.nextInt();
+
+        System.out.println("The target value present at index: "+upperBound(values,targetValue));
+        
+        userNum.close();
+    }
+}
